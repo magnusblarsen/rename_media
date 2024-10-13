@@ -41,7 +41,6 @@ for folder in "$@"; do
 	done;
 	unset IFS
 
-	echo "Going back to starting point"
 	cd "$home_folder" || exit
 done;
 
